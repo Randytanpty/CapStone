@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <!-- utf-8过滤器开始 -->
+  <filter>
+  	<filter-name>encoding</filter-name>
+  	<filter-class>com.sie.filter.Encoding</filter-class>
+  	<init-param>
+  		<param-name>charset</param-name>
+  		<param-value>utf-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>encoding</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+<!-- utf-8过滤器结束 -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Reg</servlet-name>
+    <servlet-class>com.sie.servlet.Reg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.sie.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyPub</servlet-name>
+    <servlet-class>com.sie.servlet.MyPub</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllHouseInfo</servlet-name>
+    <servlet-class>com.sie.servlet.GetAllHouseInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMyPub</servlet-name>
+    <servlet-class>com.sie.servlet.GetMyPub</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteByHiID</servlet-name>
+    <servlet-class>com.sie.servlet.DeleteByHiID</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>com.sie.servlet.Edit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetHiByID</servlet-name>
+    <servlet-class>com.sie.servlet.GetHiByID</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>com.sie.servlet.Search</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search2</servlet-name>
+    <servlet-class>com.sie.servlet.Search2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayAttention</servlet-name>
+    <servlet-class>com.sie.servlet.PayAttention</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMyAttention</servlet-name>
+    <servlet-class>com.sie.servlet.GetMyAttention</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMyAttention</servlet-name>
+    <servlet-class>com.sie.servlet.DeleteMyAttention</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditInfo</servlet-name>
+    <servlet-class>com.sie.servlet.EditInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>com.sie.servlet.Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login2</servlet-name>
+    <servlet-class>com.sie.servlet.Login2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Yanzhengma</servlet-name>
+    <servlet-class>com.sie.servlet.Yanzhengma</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckUsrName</servlet-name>
+    <servlet-class>com.sie.servlet.CheckUsrName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.sie.servlet.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminDel</servlet-name>
+    <servlet-class>com.sie.servlet.AdminDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllUsr</servlet-name>
+    <servlet-class>com.sie.servlet.GetAllUsr</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Reg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyPub</servlet-name>
+    <url-pattern>/myPub</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllHouseInfo</servlet-name>
+    <url-pattern>/getAllHouseInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMyPub</servlet-name>
+    <url-pattern>/getMyPub</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteByHiID</servlet-name>
+    <url-pattern>/deleteByHiID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHiByID</servlet-name>
+    <url-pattern>/getHiByID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search2</servlet-name>
+    <url-pattern>/search2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayAttention</servlet-name>
+    <url-pattern>/payAttention</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMyAttention</servlet-name>
+    <url-pattern>/getMyAttention</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMyAttention</servlet-name>
+    <url-pattern>/deleteMyAttention</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditInfo</servlet-name>
+    <url-pattern>/editInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+    <url-pattern>/exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login2</servlet-name>
+    <url-pattern>/login2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Yanzhengma</servlet-name>
+    <url-pattern>/yanzhengma</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUsrName</servlet-name>
+    <url-pattern>/checkUsrName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDel</servlet-name>
+    <url-pattern>/adminDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllUsr</servlet-name>
+    <url-pattern>/getAllUsr</url-pattern>
+  </servlet-mapping>
+
+
+ 
+
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
