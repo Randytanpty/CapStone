@@ -1,0 +1,603 @@
+01-Jul-2022 20:47:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 20:47:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 20:47:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 20:47:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 20:47:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 20:47:19.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 20:47:19.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 20:47:19.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 20:47:19.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 20:47:19.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 20:47:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 20:47:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 20:47:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 20:47:19.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 20:47:19.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 20:47:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 20:47:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 20:47:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 20:47:19.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 20:47:19.952 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 20:47:19.952 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 20:47:19.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 20:47:19.958 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 20:47:20.003 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 20:47:20.032 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 521 ms
+01-Jul-2022 20:47:20.077 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 20:47:20.077 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 20:47:20.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 20:47:20.393 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [303] ms
+01-Jul-2022 20:47:20.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 20:47:20.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [473] ms
+01-Jul-2022 20:47:20.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 20:47:20.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [45] ms
+01-Jul-2022 20:47:20.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 20:47:20.953 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [40] ms
+01-Jul-2022 20:47:20.953 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 20:47:21.295 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 20:47:21.322 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [369] ms
+01-Jul-2022 20:47:21.327 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 20:47:21.375 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1341 ms
+01-Jul-2022 21:04:25.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:04:25.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:04:25.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:04:25.689 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:04:25.712 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 606 ms
+01-Jul-2022 21:04:25.759 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:04:25.759 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:04:25.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:04:26.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [301] ms
+01-Jul-2022 21:04:26.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:04:26.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [570] ms
+01-Jul-2022 21:04:26.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:04:26.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [47] ms
+01-Jul-2022 21:04:26.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:04:26.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [38] ms
+01-Jul-2022 21:04:26.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:04:27.109 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:04:27.116 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [401] ms
+01-Jul-2022 21:04:27.131 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:04:27.163 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1449 ms
+01-Jul-2022 21:04:32.537 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jul-2022 21:04:32.537 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:04:32.553 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:04:32.589 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:04:32.605 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:05:09.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:05:09.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:05:10.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:05:10.048 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 498 ms
+01-Jul-2022 21:05:10.079 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:05:10.079 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:05:10.102 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:05:10.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [278] ms
+01-Jul-2022 21:05:10.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:05:10.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [22] ms
+01-Jul-2022 21:05:10.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:05:10.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [16] ms
+01-Jul-2022 21:05:10.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:05:10.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [31] ms
+01-Jul-2022 21:05:10.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:05:10.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [370] ms
+01-Jul-2022 21:05:10.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:05:10.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [47] ms
+01-Jul-2022 21:05:10.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:05:10.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [15] ms
+01-Jul-2022 21:05:10.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:05:10.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [23] ms
+01-Jul-2022 21:05:10.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:05:10.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [15] ms
+01-Jul-2022 21:05:10.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:05:10.950 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [16] ms
+01-Jul-2022 21:05:10.950 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:05:11.220 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:05:11.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [286] ms
+01-Jul-2022 21:05:11.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:05:11.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [15] ms
+01-Jul-2022 21:05:11.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:05:11.282 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1226 ms
+01-Jul-2022 21:10:00.608 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:15:11.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:15:11.048 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:15:11.090 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:11.105 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1115)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:224)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:200)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1112)
+		... 11 more
+01-Jul-2022 21:15:11.121 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 516 ms
+01-Jul-2022 21:15:11.152 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:15:11.152 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:15:11.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:15:11.453 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [301] ms
+01-Jul-2022 21:15:11.453 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:15:11.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [22] ms
+01-Jul-2022 21:15:11.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:15:11.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [15] ms
+01-Jul-2022 21:15:11.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:15:11.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [32] ms
+01-Jul-2022 21:15:11.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:15:11.970 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Randy/tomcat/conf/tomcat-users.xml]
+01-Jul-2022 21:15:12.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [554] ms
+01-Jul-2022 21:15:12.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:15:12.123 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [47] ms
+01-Jul-2022 21:15:12.123 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:15:12.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [16] ms
+01-Jul-2022 21:15:12.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:15:12.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [31] ms
+01-Jul-2022 21:15:12.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:15:12.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [7] ms
+01-Jul-2022 21:15:12.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:15:12.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [46] ms
+01-Jul-2022 21:15:12.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:15:12.593 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:15:12.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [386] ms
+01-Jul-2022 21:15:12.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:15:12.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [15] ms
+01-Jul-2022 21:15:12.640 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1518 ms
+01-Jul-2022 21:15:12.640 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:640)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:392)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:446)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:783)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:729)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+01-Jul-2022 21:15:12.640 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:12.640 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:15:12.678 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:12.678 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:22.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:15:22.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:15:22.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:22.469 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 501 ms
+01-Jul-2022 21:15:22.500 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:15:22.500 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:15:22.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:15:22.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [278] ms
+01-Jul-2022 21:15:22.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:15:22.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [38] ms
+01-Jul-2022 21:15:22.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:15:22.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [16] ms
+01-Jul-2022 21:15:22.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:15:22.870 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [15] ms
+01-Jul-2022 21:15:22.870 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:15:23.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [432] ms
+01-Jul-2022 21:15:23.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:15:23.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [38] ms
+01-Jul-2022 21:15:23.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:15:23.356 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [16] ms
+01-Jul-2022 21:15:23.356 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:15:23.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [31] ms
+01-Jul-2022 21:15:23.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:15:23.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [16] ms
+01-Jul-2022 21:15:23.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:15:23.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [37] ms
+01-Jul-2022 21:15:23.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:15:23.772 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:15:23.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [364] ms
+01-Jul-2022 21:15:23.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:15:23.826 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [22] ms
+01-Jul-2022 21:15:23.826 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:15:23.857 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1382 ms
+01-Jul-2022 21:16:43.921 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Randy/tomcat/conf/tomcat-users.xml]
+01-Jul-2022 21:16:54.357 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jul-2022 21:16:54.357 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:16:54.372 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:16:54.416 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:16:54.435 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:16:58.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:16:58.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:16:58.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:16:58.917 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 500 ms
+01-Jul-2022 21:16:58.964 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:16:58.964 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:16:58.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:16:59.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [278] ms
+01-Jul-2022 21:16:59.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:16:59.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [22] ms
+01-Jul-2022 21:16:59.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:16:59.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [32] ms
+01-Jul-2022 21:16:59.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:16:59.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [15] ms
+01-Jul-2022 21:16:59.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:16:59.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [417] ms
+01-Jul-2022 21:16:59.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:16:59.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [37] ms
+01-Jul-2022 21:16:59.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:16:59.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [16] ms
+01-Jul-2022 21:16:59.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:16:59.810 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [16] ms
+01-Jul-2022 21:16:59.810 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:16:59.825 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [15] ms
+01-Jul-2022 21:16:59.825 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:16:59.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [47] ms
+01-Jul-2022 21:16:59.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:17:00.179 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:17:00.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [323] ms
+01-Jul-2022 21:17:00.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:17:00.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [16] ms
+01-Jul-2022 21:17:00.226 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:17:00.258 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1333 ms
+01-Jul-2022 21:17:40.308 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:17:42.930 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:20:39.560 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:20:42.053 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:20:44.837 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Jul-2022 21:26:30.873 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Randy/tomcat/conf/tomcat-users.xml]
+01-Jul-2022 21:27:06.871 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jul-2022 21:27:06.872 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:27:06.882 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:27:06.925 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:27:06.934 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:27:11.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:27:11.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:27:11.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:27:11.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:27:11.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:27:11.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:27:11.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:27:11.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:27:11.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:27:11.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:27:11.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:27:11.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:27:11.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:27:11.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:27:11.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:27:11.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:27:11.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:27:11.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:27:11.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:27:11.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:27:11.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:27:11.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:27:11.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:27:11.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:27:11.584 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:27:11.584 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:27:11.584 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:27:11.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:27:11.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:27:11.663 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 539 ms
+01-Jul-2022 21:27:11.702 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:27:11.702 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:27:11.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:27:12.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [288] ms
+01-Jul-2022 21:27:12.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:27:12.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [26] ms
+01-Jul-2022 21:27:12.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:27:12.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [22] ms
+01-Jul-2022 21:27:12.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:27:12.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [23] ms
+01-Jul-2022 21:27:12.076 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:27:12.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [434] ms
+01-Jul-2022 21:27:12.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:27:12.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [40] ms
+01-Jul-2022 21:27:12.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:27:12.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [21] ms
+01-Jul-2022 21:27:12.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:27:12.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [21] ms
+01-Jul-2022 21:27:12.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:27:12.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [20] ms
+01-Jul-2022 21:27:12.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:27:12.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [35] ms
+01-Jul-2022 21:27:12.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:27:12.948 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:27:12.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [318] ms
+01-Jul-2022 21:27:12.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:27:12.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [18] ms
+01-Jul-2022 21:27:12.986 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:27:13.020 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1354 ms
+01-Jul-2022 21:29:21.303 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jul-2022 21:29:21.303 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:29:21.319 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:29:21.355 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:29:21.362 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:29:48.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:29:48.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:29:48.589 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:29:48.605 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 502 ms
+01-Jul-2022 21:29:48.652 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:29:48.652 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:29:48.652 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:29:48.937 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [285] ms
+01-Jul-2022 21:29:48.937 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:29:48.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [31] ms
+01-Jul-2022 21:29:48.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:29:48.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [22] ms
+01-Jul-2022 21:29:48.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:29:49.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [32] ms
+01-Jul-2022 21:29:49.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:29:49.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [416] ms
+01-Jul-2022 21:29:49.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:29:49.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [47] ms
+01-Jul-2022 21:29:49.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:29:49.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [7] ms
+01-Jul-2022 21:29:49.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:29:49.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [31] ms
+01-Jul-2022 21:29:49.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:29:49.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [15] ms
+01-Jul-2022 21:29:49.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:29:49.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [32] ms
+01-Jul-2022 21:29:49.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:29:49.870 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:29:49.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [323] ms
+01-Jul-2022 21:29:49.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:29:49.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [15] ms
+01-Jul-2022 21:29:49.908 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:29:49.955 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1340 ms
+01-Jul-2022 21:33:50.198 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+01-Jul-2022 21:33:50.198 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+01-Jul-2022 21:33:50.214 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+01-Jul-2022 21:34:10.246 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+01-Jul-2022 21:34:10.246 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+01-Jul-2022 21:34:10.563 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:34:10.578 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+01-Jul-2022 21:34:20.333 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jul-2022 21:34:20.333 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:34:20.355 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jul-2022 21:34:20.396 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:34:20.400 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:34:24.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Randy\tomcat
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Randy\tomcat
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Randy\tomcat\conf\logging.properties
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Randy\tomcat
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Randy\tomcat
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Randy\tomcat\temp
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2022 21:34:24.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+01-Jul-2022 21:34:24.388 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:34:24.419 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 507 ms
+01-Jul-2022 21:34:24.472 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jul-2022 21:34:24.472 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+01-Jul-2022 21:34:24.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\admin]
+01-Jul-2022 21:34:24.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\admin] has finished in [279] ms
+01-Jul-2022 21:34:24.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\common]
+01-Jul-2022 21:34:24.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\common] has finished in [22] ms
+01-Jul-2022 21:34:24.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\css]
+01-Jul-2022 21:34:24.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\css] has finished in [31] ms
+01-Jul-2022 21:34:24.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\docs]
+01-Jul-2022 21:34:24.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\docs] has finished in [16] ms
+01-Jul-2022 21:34:24.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\examples]
+01-Jul-2022 21:34:25.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\examples] has finished in [470] ms
+01-Jul-2022 21:34:25.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\host-manager]
+01-Jul-2022 21:34:25.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\host-manager] has finished in [31] ms
+01-Jul-2022 21:34:25.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\image]
+01-Jul-2022 21:34:25.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\image] has finished in [38] ms
+01-Jul-2022 21:34:25.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\inc]
+01-Jul-2022 21:34:25.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\inc] has finished in [15] ms
+01-Jul-2022 21:34:25.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\js]
+01-Jul-2022 21:34:25.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\js] has finished in [16] ms
+01-Jul-2022 21:34:25.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\manager]
+01-Jul-2022 21:34:25.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\manager] has finished in [31] ms
+01-Jul-2022 21:34:25.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\ROOT]
+01-Jul-2022 21:34:25.822 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jul-2022 21:34:25.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\ROOT] has finished in [417] ms
+01-Jul-2022 21:34:25.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Randy\tomcat\webapps\upload]
+01-Jul-2022 21:34:25.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Randy\tomcat\webapps\upload] has finished in [15] ms
+01-Jul-2022 21:34:25.876 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2022 21:34:25.907 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1486 ms
+01-Jul-2022 21:34:31.422 WARNING [http-nio-8080-exec-1] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:1 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 21:34:31.470 WARNING [http-nio-8080-exec-1] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:2 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 21:34:31.510 WARNING [http-nio-8080-exec-1] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:3 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:02:42.923 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:4 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:02:42.964 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:5 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:02:43.009 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:6 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:33.166 WARNING [http-nio-8080-exec-4] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:7 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:33.182 WARNING [http-nio-8080-exec-4] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:8 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:33.197 WARNING [http-nio-8080-exec-4] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:9 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:36.646 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:10 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:36.664 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:11 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+01-Jul-2022 23:43:36.683 WARNING [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL TDSChannel ( ConnectionID:12 TransactionID:0x0000000000000000) SSL handshake failed: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
